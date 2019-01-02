@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 long Maximum(long a, long b, long c)
 {
     if (a > b)
@@ -11,11 +12,13 @@ long Maximum(long a, long b, long c)
         return b > c ? b : c;
     }
 }
+
 long n;
 long a[5005];
 long q;
 long dp[5005][5005];
 long F[5005][5005];
+
 int main()
 {
     scanf("%ld", &n);
